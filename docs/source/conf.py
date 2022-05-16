@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'DaisyRec-v2.0'
+copyright = '2022, DaisyRec-v2.0'
+author = 'DaisyRec Contributors'
 
 release = '0.1'
 version = '0.1.0'
