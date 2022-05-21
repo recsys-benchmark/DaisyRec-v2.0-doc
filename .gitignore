@@ -26,8 +26,11 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.DS_Store
 .Python
 build/
+.vscode/
+_build/
 develop-eggs/
 dist/
 downloads/

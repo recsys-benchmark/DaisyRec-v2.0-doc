@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'DaisyRec-v2.0'
+project = 'DaisyRec-v2.0 Documentation'
 copyright = '2022, DaisyRec-v2.0'
 author = 'DaisyRec Contributors'
 
