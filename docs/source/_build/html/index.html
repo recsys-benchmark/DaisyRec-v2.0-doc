@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to Lumache’s documentation! &mdash; Lumache 0.1 documentation</title>
+  <title>Welcome to DaisyRec-v2.0’s documentation! &mdash; DaisyRec-v2.0 Documentation 0.1 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -18,7 +18,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Usage" href="usage.html" /> 
+    <link rel="next" title="Basic Parameters Description" href="basic%20parameters.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -26,7 +26,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="#" class="icon icon-home"> Lumache
+            <a href="#" class="icon icon-home"> DaisyRec-v2.0 Documentation
           </a>
               <div class="version">
                 0.1.0
@@ -39,9 +39,10 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
-<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
-<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+              <p class="caption" role="heading"><span class="caption-text">Parameter Settings</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="basic%20parameters.html">Basic Parameters Description</a></li>
+<li class="toctree-l1"><a class="reference internal" href="algorithom-relative%20parameters.html">Algorithm-relative Parameter Desciption</a></li>
 </ul>
 
         </div>
@@ -50,7 +51,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">Lumache</a>
+          <a href="#">DaisyRec-v2.0 Documentation</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -58,7 +59,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="#" class="icon icon-home"></a> &raquo;</li>
-      <li>Welcome to Lumache’s documentation!</li>
+      <li>Welcome to DaisyRec-v2.0’s documentation!</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -68,47 +69,50 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="welcome-to-lumache-s-documentation">
-<h1>Welcome to Lumache’s documentation!<a class="headerlink" href="#welcome-to-lumache-s-documentation" title="Permalink to this headline"></a></h1>
-<p><strong>Lumache</strong> (/lu’make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the <a class="reference external" href="https://world.openfoodfacts.org/">Open Food Facts database</a>
-and offers a <em>simple</em> and <em>intuitive</em> API.</p>
-<p>Check out the <a class="reference internal" href="usage.html"><span class="doc">Usage</span></a> section for further information, including
-how to <a class="reference internal" href="usage.html#installation"><span class="std std-ref">Installation</span></a> the project.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This project is under active development.</p>
-</div>
-<section id="contents">
-<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline"></a></h2>
+  <section id="welcome-to-daisyrec-v2-0-s-documentation">
+<h1>Welcome to DaisyRec-v2.0’s documentation!<a class="headerlink" href="#welcome-to-daisyrec-v2-0-s-documentation" title="Permalink to this headline"></a></h1>
+<p>The description of all possible parameter settings used by code in certain algorithms are listed below.</p>
 <div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Parameter Settings</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#installation">Installation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#creating-recipes">Creating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic%20parameters.html">Basic Parameters Description</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#problem-type">–problem_type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#score-metric">–score_metric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#tune-epochs">–tune_epochs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#tune-pack">–tune_pack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#algo-name">–algo_name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#dataset">–dataset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#prepro">–prepro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#val-method">–val_method</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#test-method">–test_method</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#topk">–topk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#test-size">–test_size</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#val-size">–val_size</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#fold-num">–fold_num</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#cand-num">–cand_num</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#sample-method">–sample_method</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#sample-ratio">–sample_ratio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#num-ng">–num_ng</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#loss-type">–loss_type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic%20parameters.html#gpu">–gpu</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="api.html">API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="generated/lumache.html">lumache</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="algorithom-relative%20parameters.html">Algorithm-relative Parameter Desciption</a></li>
 </ul>
 </div>
-</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="usage.html" class="btn btn-neutral float-right" title="Usage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="basic%20parameters.html" class="btn btn-neutral float-right" title="Basic Parameters Description" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2021, Graziella.</p>
+    <p>&#169; Copyright 2022, DaisyRec-v2.0.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a

@@ -1,84 +1,84 @@
-Algorithm-relative Parameter Desciption Format1
-================================================
+.. Algorithm-relative Parameter Desciption Format1
+.. ================================================
 
-init_method
-------------
-   Parameter initializers in the model.
+.. init_method
+.. ------------
+..    Parameter initializers in the model.
 
-optimizer
-----------
-   Optimization algorithms in the model.
+.. optimizer
+.. ----------
+..    Optimization algorithms in the model.
 
-early_stop
-----------
-   Whether to activate early stop mechanism.
+.. early_stop
+.. ----------
+..    Whether to activate early stop mechanism.
 
-tune_testset
-------------
-   Whether to directly tune on testset.
+.. tune_testset
+.. ------------
+..    Whether to directly tune on testset.
 
-factors
--------
-   Latent factors numbers in the model.
+.. factors
+.. -------
+..    Latent factors numbers in the model.
 
-reg_1
------
-   L1 regularization.
+.. reg_1
+.. -----
+..    L1 regularization.
 
-reg_2
------
-   L2 regularization.
+.. reg_2
+.. -----
+..    L2 regularization.
 
-dropout
--------
-   Dropout rate.
+.. dropout
+.. -------
+..    Dropout rate.
 
-lr
------
-   Learning rate.
+.. lr
+.. -----
+..    Learning rate.
 
-epochs
---------
-   Training epochs.
+.. epochs
+.. --------
+..    Training epochs.
 
-batch_size
------------
-   Batch size for training.
+.. batch_size
+.. -----------
+..    Batch size for training.
 
-num_layers
------------
-   Number of layers in MLP model.
+.. num_layers
+.. -----------
+..    Number of layers in MLP model.
 
-alpha
------
-   Number of layers in MLP model.
+.. alpha
+.. -----
+..    Number of layers in MLP model.
 
-elastic
--------
-   Constant that multiplies the penalty terms in SLiM.
+.. elastic
+.. -------
+..    Constant that multiplies the penalty terms in SLiM.
 
-pop-n
------
-   	Initial selected number of Most-popular in MostPop.
+.. pop-n
+.. -----
+..    	Initial selected number of Most-popular in MostPop.
 
-maxk
------
-   The (max) number of neighbors to take into account in ItemKNN.
+.. maxk
+.. -----
+..    The (max) number of neighbors to take into account in ItemKNN.
 
-node_dropout
----------------
-   Node dropout ratio in NGCF.
+.. node_dropout
+.. ---------------
+..    Node dropout ratio in NGCF.
 
-mess_dropout
--------------
-   Mess dropout ratio in NGCF.
+.. mess_dropout
+.. -------------
+..    Mess dropout ratio in NGCF.
 
-kl_reg
-------
-   VAE KL regularization.
+.. kl_reg
+.. ------
+..    VAE KL regularization.
 
 
-Algorithm-relative Parameter Desciption Format2
+Algorithm-relative Parameter Desciption 
 =================================================
 
 --init_method     parameter initializers in the model
