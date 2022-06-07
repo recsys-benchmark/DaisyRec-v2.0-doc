@@ -1,104 +1,86 @@
-.. Algorithm-relative Parameter Desciption Format1
-.. ================================================
+Algorithm-relative Parameter Desciption
+=======================================
+--init_method
+-------------
+ parameter initializers in the model
 
-.. init_method
-.. ------------
-..    Parameter initializers in the model.
+ * **normal**
+ * **uniform**
+ * **xavier_uniform**
+ * **xavier_normal**
 
-.. optimizer
-.. ----------
-..    Optimization algorithms in the model.
+--optimizer       
+-----------
+ optimization algorithms in the model
 
-.. early_stop
-.. ----------
-..    Whether to activate early stop mechanism.
+ * **sgd**
+ * **adam**
+ * **adagrad**
 
-.. tune_testset
-.. ------------
-..    Whether to directly tune on testset.
+--early_stop      
+------------
+ whether to activate early stop mechanism
 
-.. factors
-.. -------
-..    Latent factors numbers in the model.
+--tune_testset
+--------------
+ whether to directly tune on testset
 
-.. reg_1
-.. -----
-..    L1 regularization.
+--factors
+---------
+ latent factors numbers in the model
 
-.. reg_2
-.. -----
-..    L2 regularization.
+--reg_1
+-------
+ L1 regularization
 
-.. dropout
-.. -------
-..    Dropout rate.
+--reg_2
+--------
+ L2 regularization        
 
-.. lr
-.. -----
-..    Learning rate.
+--dropout
+----------
+ dropout rate
 
-.. epochs
-.. --------
-..    Training epochs.
+--lr
+----
+ learning rate
 
-.. batch_size
-.. -----------
-..    Batch size for training.
+--epochs
+--------
+ training epochs
 
-.. num_layers
-.. -----------
-..    Number of layers in MLP model.
+--batch_size
+------------
+ batch size for training
 
-.. alpha
-.. -----
-..    Number of layers in MLP model.
+--num_layers
+------------
+ number of layers in MLP model
 
-.. elastic
-.. -------
-..    Constant that multiplies the penalty terms in SLiM.
+--alpha
+--------
+ constant that multiplies the penalty terms in SLiM
 
-.. pop-n
-.. -----
-..    	Initial selected number of Most-popular in MostPop.
+--elastic
+---------
+ the ElasticNet mixing parameter in SLiM  
 
-.. maxk
-.. -----
-..    The (max) number of neighbors to take into account in ItemKNN.
+--pop-n
+-------
+ initial selected number of Most-popular in MostPop	  
 
-.. node_dropout
-.. ---------------
-..    Node dropout ratio in NGCF.
+--maxk
+-------
+ the (max) number of neighbors to take into account in ItemKNN
 
-.. mess_dropout
-.. -------------
-..    Mess dropout ratio in NGCF.
+--node_dropout
+--------------
+ node dropout ratio in *NGCF* model
 
-.. kl_reg
-.. ------
-..    VAE KL regularization.
+--mess_dropout
+--------------
+ mess dropout ratio in *NGCF* model
 
-
-Algorithm-relative Parameter Desciption 
-=================================================
-
---init_method     parameter initializers in the model
---optimizer       optimization algorithms in the model
---early_stop      whether to activate early stop mechanism
---tune_testset    whether to directly tune on testset
---factors         latent factors numbers in the model
---reg_1           L1 regularization
---reg_2           L2 regularization
---dropout         dropout rate
---lr              learning rate
---epochs          training epochs
---batch_size      batch size for training
---num_layers      number of layers in MLP model
---alpha           constant that multiplies the penalty 
-                  terms in SLiM
---elastic         the ElasticNet mixing parameter in SLiM
---pop-n	         initial selected number of Most-popular in MostPop
---maxk            the (max) number of neighbors to take into account 
-                  in ItemKNN
---node_dropout    node dropout ratio in *NGCF* model
---mess_dropout    mess dropout ratio in *NGCF* model
---kl_reg          VAE KL regularization
+--kl_reg
+---------
+ Multi-VAE KL regularization
