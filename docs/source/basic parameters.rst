@@ -103,11 +103,11 @@ Basic Parameters Description
 
 --sample_method
 ---------------
-  Negative sampling method.
+ Negative sampling method.
 
-* **uniform**: uniformly sampling
-* **item-ascd**: sampling popular items with low rank
-* **item-desc**: sampling popular items with high rank
+ * **uniform**: uniformly sampling
+ * **item-ascd**: sampling popular items with low rank
+ * **item-desc**: sampling popular items with high rank
 
 --sample_ratio
 --------------
