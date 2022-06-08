@@ -1,10 +1,10 @@
-Algorithm-relative Parameter Desciption
+Algorithm Specific Parameter Desciption
 =======================================
 --init_method
 -------------
  parameter initializers in the model
 
- * **normal**
+ * **normal** 
  * **uniform**
  * **xavier_uniform**
  * **xavier_normal**
