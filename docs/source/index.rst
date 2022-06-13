@@ -8,5 +8,5 @@ The description of all possible parameter settings used by code in certain algor
    :caption: Parameter Settings
 
    basic parameters
-   algorithom-relative parameters
+   algorithom specific parameters
    
