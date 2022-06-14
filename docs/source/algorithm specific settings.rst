@@ -69,7 +69,7 @@ Algorithm Specific Settings
 
 --elastic
 ---------
- the ElasticNet mixing parameter for SLIM  
+ the ElasticNet mixing parameter for SLIM in the range of (0,1)  
 
 --pop-n
 -------

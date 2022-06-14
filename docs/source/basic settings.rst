@@ -83,11 +83,11 @@ Basic Settings
 
 --val_size
 -----------
-  ratio of validation set size, e.g., 0.1 means retaining 10% of training data as validation data
+  ratio of validation set size in the range of (0,1), e.g., 0.1 means retaining 10% of training data as validation data
 
 --test_size
 -----------
-  ratio of test set size, e.g., 0.2 means retaining 20% of the whole data as test data
+  ratio of test set size in the range of (0,1), e.g., 0.2 means retaining 20% of the whole data as test data
 
 --topk
 -------
@@ -95,7 +95,7 @@ Basic Settings
 
 --fold_num
 ----------
-  the number of cross-validation
+  the fold number of cross-validation
 
 --cand_num
 ----------
@@ -111,7 +111,7 @@ Basic Settings
 
 --sample_ratio
 --------------
-  control the ratio of popularity sampling for the hybrid sampling strategy, e.g., for the hybrid sampling strategy uniform+low-pop, --sample_ratio=0.1 means 10% of the negative items are sampled via low-pop 
+  control the ratio of popularity sampling for the hybrid sampling strategy in the range of (0,1), e.g., for the hybrid sampling strategy uniform+low-pop, --sample_ratio=0.1 means 10% of the negative items are sampled via low-pop 
   
 --num_ng
 --------
