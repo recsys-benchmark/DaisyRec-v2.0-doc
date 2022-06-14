@@ -4,6 +4,7 @@ Algorithm Specific Settings
 -------------
  parameter initializers
 
+ * **default**: initialize parameters according to the original paper 
  * **normal**: initialize parameters with normal distribution
  * **uniform**: initialize parameters with uniform distribution
  * **xavier_normal**: initialize parameters with xavier_normal distribution
@@ -13,6 +14,7 @@ Algorithm Specific Settings
 -----------
  optimization method for training the algorithms
 
+ * **default** (optimizer in the original paper)
  * **sgd**
  * **adam**
  * **adagrad**
