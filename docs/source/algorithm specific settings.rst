@@ -73,7 +73,7 @@ Algorithm Specific Settings
 ---------
  the ElasticNet mixing parameter for SLIM in the range of (0,1)  
 
---pop-n
+--pop_n
 -------
  the preliminary selected top-n popular candidate items to reduce the time complexity for MostPop	  
 
