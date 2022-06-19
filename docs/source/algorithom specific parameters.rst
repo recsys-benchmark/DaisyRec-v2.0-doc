@@ -65,7 +65,7 @@ Algorithm Specific Parameter Desciption
 ---------
  the ElasticNet mixing parameter in SLiM  
 
---pop-n
+--pop_n
 -------
  initial selected number of Most-popular in MostPop	  
 
