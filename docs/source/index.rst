@@ -1,12 +1,12 @@
-Welcome to DaisyRec-v2.0's documentation!
+Welcome to DaisyRec-v2.0's Documentation!
 =========================================
 
-The description of all possible parameter settings used by code in certain algorithms are listed below.
+The description of all parameters is listed below.
 
 .. toctree::
    :maxdepth: 3
    :caption: Parameter Settings
 
-   basic parameters
-   algorithom specific parameters
+   basic settings
+   algorithm specific settings
    
