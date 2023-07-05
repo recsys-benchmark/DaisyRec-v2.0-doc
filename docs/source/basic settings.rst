@@ -112,10 +112,14 @@ Basic Settings
 --sample_ratio
 --------------
   control the ratio of popularity sampling for the hybrid sampling strategy in the range of (0,1), e.g., for the hybrid sampling strategy uniform+low-pop, --sample_ratio=0.1 means 10% of the negative items are sampled via low-pop 
-  
+
 --num_ng
 --------
   the number of negative samples
+
+--positive_threshold
+--------
+  the threshold for binarizing the ratings into positve samples (for exmaple if the threshold = 4, it means the items with ratings no less than 4 will be treated as positive items)
 
 --loss_type
 -----------
